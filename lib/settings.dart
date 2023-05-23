@@ -93,6 +93,7 @@ class _SettingsState extends State<Settings> {
                     ),
                     trailing: Switch(
                         value: showVideos,
+                        activeColor: Color(0XFFED1C53),
                         onChanged: (val) async {
                           SharedPreferences preferences =
                               await SharedPreferences.getInstance();
